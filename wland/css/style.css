@@ -1,0 +1,130 @@
+
+html {
+    font-size: 62.5%;
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+body {
+  
+    font-size: 1.6rem;
+    line-height: 1.8;
+}
+h1, h2, h3 {
+    font-weight: 900;
+    margin: 2rem 0;
+}
+h1 {
+    font-size: 5rem;
+}
+h2 {
+    font-size: 4.6rem;
+}
+h3 {
+    font-size: 3rem;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+img {
+    max-width: 100%;
+    display: block;
+}
+/* Toda clase que se nombre junto a __contenedor va a tomar las propiedades de este selector */
+.container{                   
+        
+max-width: 120rem;
+margin: 0 auto;
+width: 90%;
+}
+
+.nav-flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #225c00bb;
+    padding: 2rem;
+
+}
+.nav-flex a{
+    font-size: 4rem;
+    font-weight: 900;
+}
+.nav-flex a:hover{
+    color: #ccc;
+}
+
+.fondo{
+    background-image: url(../assets/img/fondo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 120rem;
+    background-position: 89%, 0%;
+    display: flex;
+    justify-content: center;
+   
+    
+
+}
+.contenido{
+    margin-top: 30%;
+}
+.contenido a h2{
+    font-size: 6rem;
+    text-align: center;
+}
+.contenido a:hover{
+    color: #ccc;
+
+}
+.img1{
+    max-width: 100%;
+    height: 8rem;
+}
+
+.owland-info{
+ max-width: 95%;
+ margin: 0px auto;
+ margin-top: 5rem;
+ background-image: linear-gradient(to left, transparent 50%, #5D8744 0%) ,url(../assets/img/owl-01.png);
+ background-repeat: no-repeat;
+ background-position: right;
+
+ 
+}
+      
+
+  
+
+.owland-info-grid{
+    display: grid;
+    padding: 4rem;
+    height: 50rem;
+    grid-template-columns: repeat(2 , 1fr);
+    gap: 2rem;
+
+}
+
+.texto-sobre-owland{
+    color: #fff;
+    grid-column: 1 / 2;
+    display: flex;
+    flex-direction: column;
+    margin-right: 40%;
+    justify-content: space-around;
+  }
+
+
+  .texto-sobre-owland{
+    font-size: 4rem;
+  
+  }
+  .texto-sobre-owland p{
+    font-size: 2rem;
+    line-height: 2;
+    
+  }
+
+
